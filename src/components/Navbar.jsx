@@ -11,7 +11,11 @@ const Navbar = () => {
         <Flex alignItems="center">
           <Button as={RouterLink} to="/text-to-image" variant="link" color="white" mr={4}>Text to Image</Button>
           <Button as={RouterLink} to="/text-to-video" variant="link" color="white" mr={4}>Text to Video</Button>
-          <Button as={RouterLink} to="/video-to-video" variant="link" color="white">Video to Video</Button>
+          <Button as={RouterLink} to="/video-to-video" variant="link" color="white" mr={4}>Video to Video</Button>
+          <Button as={RouterLink} to="/image-to-video" variant="link" color="white" mr={4}>Image to Video</Button>
+          <Button as={RouterLink} to="/gallery" variant="link" color="white" mr={4}>Gallery</Button>
+          <Button as={RouterLink} to="/login" variant="link" color="white" mr={4}>Login</Button>
+          <Button as={RouterLink} to="/signup" variant="link" color="white">Signup</Button>
         </Flex>
       </Flex>
     </Box>
